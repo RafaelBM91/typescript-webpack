@@ -1,0 +1,21 @@
+{
+  "name": "typeScript-webpack",
+  "version": "1.0.0",
+  "description": "create aplication witch webpack and typescript",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "webpack --optimize-minimize"
+  },
+  "keywords": [
+    'javascript',
+    'typescript',
+    'webpack'
+  ],
+  "author": "Rafael Briceño @rafaelbm91",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^2.3.7",
+    "typescript": "^2.5.2",
+    "webpack": "^2.2.1"
+  }
+}
